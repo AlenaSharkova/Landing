@@ -1,0 +1,486 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: auto;
+  position: relative;
+  max-width: 1920px;
+  font-family: "Larsseit", sans-serif;
+}
+body header {
+  height: 104px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+body header .headerBlock {
+  height: 100%;
+  max-width: 1130px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+body header .headerBlock .header__logo {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 27px;
+  color: #62D0DF;
+}
+body header .headerBlock .header__nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 300px;
+}
+body header .headerBlock .header__nav .nav__item {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 16px;
+}
+body header .headerBlock .header__nav li:hover {
+  border-bottom: 1px solid #000;
+}
+body header .headerBlock .header__buttonContacts {
+  color: #fff;
+  margin-left: auto;
+  border-radius: 50px;
+  background: #62D0DF;
+  padding: 20px 30px;
+}
+body .home .home__img {
+  position: absolute;
+  right: 0;
+  z-index: 0;
+}
+body .home .homeBlock {
+  background-color: #F4F9E2;
+  width: 75%;
+  margin-right: auto;
+  height: 840px;
+  padding-left: 180px;
+}
+body .home .homeBlock .homeBlock__content {
+  padding-bottom: 75px;
+  padding-top: 240px;
+  width: 484px;
+  position: relative;
+  z-index: 1;
+}
+body .home .homeBlock .homeBlock__content .home__logo {
+  font-size: 24px;
+  line-height: 27px;
+  letter-spacing: -0.035em;
+  color: #62D0DF;
+}
+body .home .homeBlock .homeBlock__content .home__title {
+  font-weight: bold;
+  margin-top: 40px;
+  font-size: 48px;
+  line-height: 53px;
+  letter-spacing: -0.035em;
+  color: #22356F;
+}
+body .home .homeBlock .homeBlock__content .home__text {
+  margin-top: 63px;
+  font-size: 24px;
+  line-height: 42px;
+  color: #22356F;
+}
+body .home .homeBlock .homeBlock__content .homeBlock__buttons {
+  margin-top: 63px;
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+body .home .homeBlock .homeBlock__content .homeBlock__buttons .home__leftButton {
+  padding: 10px 30px;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #fff;
+  background-color: #F9B640;
+}
+body .home .homeBlock .homeBlock__content .homeBlock__buttons .home__rightButton {
+  padding: 10px 30px;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #F9B640;
+}
+body .introduction {
+  background: #62D0DF;
+  height: 604px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 179px;
+}
+body .introduction .introduction__content {
+  padding-top: 151px;
+  width: 555px;
+}
+body .introduction .introduction__content .introduction__title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 27px;
+  letter-spacing: -0.006em;
+  color: #FFFFFF;
+}
+body .introduction .introduction__content .introduction__text {
+  margin-top: 75px;
+  font-size: 20px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+body .introduction .introduction__content .introduction__text .boldText {
+  font-size: 24px;
+  font-weight: bold;
+}
+body .introduction .introduction__img {
+  width: auto;
+  height: 100%;
+}
+body .about {
+  height: 361px;
+  padding-left: 106px;
+  background-color: #fff;
+}
+body .about .aboutBlock {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  min-width: 908px;
+  padding-top: 147px;
+  color: #22356F;
+}
+body .about .aboutBlock .about__heading {
+  padding-right: 225px;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+}
+body .about .aboutBlock .about__text {
+  font-weight: bold;
+  width: 592px;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 0.005em;
+}
+body .sport {
+  max-width: 1440px;
+  margin: auto;
+  background-color: #fff;
+}
+body .sport .sportBlock {
+  padding-top: 76px;
+}
+body .sport .sportBlock .sport__title {
+  margin: auto;
+  margin-bottom: 24px;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: rgba(34, 53, 111, 0.5);
+}
+body .sport .sportBlock .sport__pictures {
+  display: flex;
+  justify-content: space-between;
+}
+body .sport .sportBlock .sport__pictures .pictures__item {
+  width: 360px;
+  height: 360px;
+  cursor: pointer;
+}
+body .sport .sportBlock .sport__pictures .pictures__item:hover hr {
+  width: 225px;
+  transition: 350ms;
+}
+body .sport .sportBlock .sport__pictures .pictures__item hr {
+  width: 255px;
+  height: 1px;
+  background-color: #fff;
+  margin-top: 95px;
+  border: 0;
+}
+body .sport .sportBlock .sport__pictures .pictures__item .item__text {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: -0.006em;
+  color: #FFF;
+  margin-top: 23px;
+  max-width: 232px;
+  position: relative;
+  margin-left: 70px;
+}
+body .sport .sportBlock .sport__pictures .pictures__item .item__text:before {
+  content: "";
+  display: block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: #E9B730;
+  position: absolute;
+  left: -20px;
+  top: 12px;
+}
+body .sport .sportBlock .sport__pictures .item-one {
+  background-color: #FFE2DE;
+}
+body .sport .sportBlock .sport__pictures .item-two {
+  background-color: #C4E769;
+}
+body .sport .sportBlock .sport__pictures .item-three {
+  background-color: #62D0DF;
+}
+body .sport .sportBlock .sport__pictures .item-four {
+  background-color: #0052C1;
+}
+body .services {
+  max-width: 1440px;
+  margin: auto;
+  background-color: #fff;
+  padding-top: 120px;
+}
+body .services .services__picturesRow {
+  display: flex;
+  justify-content: space-between;
+}
+body .services .services__picturesRow .pictures__item {
+  width: 480px;
+  height: 480px;
+  background-color: #545;
+  cursor: pointer;
+}
+body .services .services__picturesRow .pictures__item:hover hr {
+  width: 300px;
+  transition: 350ms;
+}
+body .services .services__picturesRow .pictures__item hr {
+  width: 340px;
+  height: 2px;
+  background-color: #fff;
+  margin-top: 95px;
+  border: 0;
+}
+body .services .services__picturesRow .pictures__item .item__text {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: -0.006em;
+  color: #FFF;
+  margin-top: 30px;
+  margin-left: 104px;
+  max-width: 250px;
+  position: relative;
+}
+body .services .services__picturesRow .pictures__item .item__text:before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #E9B730;
+  position: absolute;
+  left: -26px;
+  top: 12px;
+}
+body .services .services__picturesRow .item-one {
+  background-color: #22356F;
+}
+body .services .services__picturesRow .item-two {
+  background-color: #0052C1;
+}
+body .services .services__picturesRow .item-three {
+  background-image: url("images/joanna-kosinska-340748.jpg");
+}
+body .services .services__picturesRow .item-four {
+  background-color: #62D0DF;
+}
+body .services .services__picturesRow .item-five {
+  background-color: #DEE1FF;
+}
+body .services .services__picturesRow .item-six {
+  background-color: #8F00FF;
+}
+body .type {
+  padding-top: 22px;
+}
+body .type .type__row {
+  display: flex;
+  justify-content: space-between;
+}
+body .type .type__row .type__item {
+  width: 480px;
+  height: 240px;
+  padding-left: 105px;
+  padding-right: 77px;
+}
+body .type .type__row .type__item .item__title {
+  padding-top: 55px;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: -0.03em;
+  color: #22356F;
+}
+body .type .type__row .type__item .item__text {
+  padding-top: 28px;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  color: rgba(34, 53, 111, 0.5);
+}
+body .blog {
+  height: 800px;
+  padding-top: 20px;
+  background-color: #fff;
+  display: flex;
+}
+body .blog .blog__img {
+  width: 480px;
+  height: 100%;
+}
+body .blog .blog__content {
+  padding-left: 106px;
+  margin-top: 103px;
+}
+body .blog .blog__content .blog__heading {
+  font-size: 16px;
+  line-height: 12px;
+  letter-spacing: 0.06em;
+  color: #22356F;
+}
+body .blog .blog__content .blog__text {
+  font-weight: bold;
+  margin-top: 225px;
+  max-width: 676px;
+  font-size: 36px;
+  line-height: 53px;
+  letter-spacing: -0.01em;
+  color: #22356F;
+}
+body .blog .blog__content .blog__text .blueText {
+  color: #62D0DF;
+}
+body .blog .blog__content .blog__subtext {
+  margin-top: 152px;
+  font-size: 16px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  color: #FAB63E;
+}
+body .getHelp {
+  height: 800px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #22356F;
+}
+body .getHelp .getHelp__content {
+  padding-left: 180px;
+  margin-top: 103px;
+  color: #FFF;
+  max-width: 579px;
+}
+body .getHelp .getHelp__content .getHelp__heading {
+  margin-bottom: 230px;
+  font-size: 16px;
+  line-height: 12px;
+  letter-spacing: 0.06em;
+}
+body .getHelp .getHelp__content .getHelp__title {
+  font-weight: bold;
+  margin-bottom: 75px;
+  font-size: 64px;
+  line-height: 94px;
+  letter-spacing: -0.01em;
+}
+body .getHelp .getHelp__content .getHelp__text {
+  margin-bottom: 75px;
+  font-size: 36px;
+  line-height: 53px;
+  letter-spacing: -0.005em;
+}
+body .getHelp .getHelp__content .getHelp__subtext {
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  color: #62D0DF;
+}
+body .getHelp .getHelp__img {
+  width: 480px;
+  height: 100%;
+}
+body .contacts {
+  height: 380px;
+  display: flex;
+}
+body .contacts .contacts__img {
+  width: 570px;
+  height: 100%;
+}
+body .contacts .contactsBlock {
+  width: 765px;
+  margin-top: 98px;
+  padding-left: 68px;
+  display: flex;
+  justify-content: space-between;
+}
+body .contacts .contactsBlock .contact__item {
+  width: 223px;
+}
+body .contacts .contactsBlock .contact__item .item__title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 11px;
+  letter-spacing: -0.006em;
+  color: #22356F;
+}
+body .contacts .contactsBlock .contact__item .item__text {
+  width: 207px;
+  height: 172px;
+  padding-top: 40px;
+  padding-right: 16px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: -0.006em;
+  color: rgba(34, 53, 111, 0.5);
+}
+body .contacts .contactsBlock .item-someInfo, body .contacts .contactsBlock .item-enfoldHealth {
+  box-shadow: inset -1px 0px 0px rgba(0, 0, 0, 0.025);
+}
+body .contacts .contactsBlock .item-someInfo .telBlock, body .contacts .contactsBlock .item-enfoldHealth .telBlock {
+  margin-top: 20px;
+}
+body .contacts .contactsBlock .item-someInfo .mailBlock, body .contacts .contactsBlock .item-enfoldHealth .mailBlock {
+  color: blue;
+}
+body .copyright {
+  font-weight: bold;
+  background-color: #62D0DF;
+  height: 80px;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: -0.006em;
+  color: #FFFFFF;
+  padding-top: 32px;
+  padding-left: 180px;
+  box-sizing: border-box;
+}
+body .copyright .copyright__icon {
+  padding-right: 6px;
+}

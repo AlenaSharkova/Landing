@@ -1,0 +1,703 @@
+@media (max-width: 1280px) {
+  body header .headerBlock {
+    max-width: 950px;
+  }
+  body header .headerBlock .header__menu .header__nav {
+    margin-left: 150px;
+  }
+  body .home .home__img {
+    width: 600px;
+  }
+  body .home .homeBlock {
+    padding-left: 100px;
+  }
+  body .home .homeBlock .homeBlock__content {
+    padding-top: 180px;
+  }
+  body .home .homeBlock .homeBlock__content .home__title {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  body .home .homeBlock .homeBlock__content .home__text {
+    margin-top: 50px;
+    font-size: 23px;
+  }
+  body .home .homeBlock .homeBlock__content .homeBlock__buttons {
+    margin-top: 55px;
+  }
+  body .introduction {
+    padding-left: 100px;
+  }
+  body .introduction .introduction__content {
+    padding-top: 100px;
+    max-width: 540px;
+    margin-right: 30px;
+  }
+  body .introduction .introduction__content .introduction__title {
+    font-size: 34px;
+    line-height: 25px;
+  }
+  body .introduction .introduction__content .introduction__text {
+    margin-top: 50px;
+    font-size: 18px;
+    line-height: 33px;
+  }
+  body .introduction .introduction__content .introduction__text .boldText {
+    font-size: 21px;
+  }
+  body .introduction .introduction__img {
+    width: auto;
+    height: 500px;
+  }
+  body .about .aboutBlock {
+    max-width: 1000px;
+    padding-top: 100px;
+  }
+  body .sport .sportBlock {
+    padding-top: 60px;
+  }
+  body .sport .sportBlock .sport__pictures .pictures__item {
+    width: 320px;
+    height: 320px;
+  }
+  body .sport .sportBlock .sport__pictures .pictures__item hr {
+    margin-top: 80px;
+  }
+  body .sport .sportBlock .sport__pictures .pictures__item .item__text {
+    font-size: 29px;
+    line-height: 30px;
+    margin-top: 20px;
+    max-width: 232px;
+    margin-left: 50px;
+  }
+  body .sport .sportBlock .sport__pictures .pictures__item .item__text:before {
+    width: 7px;
+    height: 7px;
+    left: -15px;
+  }
+  body .services {
+    padding-top: 100px;
+  }
+  body .services .pictures__item {
+    width: 315px;
+    height: 426px;
+  }
+  body .services .pictures__item hr {
+    margin-top: 80px;
+  }
+  body .services .pictures__item .item__text {
+    font-size: 29px;
+    line-height: 30px;
+    margin-top: 27px;
+    margin-left: 80px;
+  }
+  body .services .pictures__item .item__text:before {
+    width: 10px;
+    height: 10px;
+    left: -20px;
+  }
+  body .type .type__item {
+    padding-left: 70px;
+    padding-right: 50px;
+  }
+  body .type .type__item .item__title {
+    margin-top: 40px;
+  }
+  body .blog .blog__img {
+    height: 640px;
+  }
+  body .blog .blog__content {
+    padding-left: 70px;
+    margin-top: 75px;
+  }
+  body .blog .blog__content .blog__heading {
+    font-size: 14px;
+  }
+  body .blog .blog__content .blog__text {
+    margin-top: 180px;
+    max-width: 560px;
+    font-size: 30px;
+    line-height: 45px;
+  }
+  body .blog .blog__content .blog__subtext {
+    margin-top: 100px;
+    font-size: 14px;
+  }
+  body .getHelp .getHelp__content {
+    padding-left: 100px;
+    margin-top: 80px;
+    max-width: 510px;
+  }
+  body .getHelp .getHelp__content .getHelp__heading {
+    font-size: 14px;
+  }
+  body .getHelp .getHelp__content .getHelp__title {
+    margin-top: 150px;
+    font-size: 55px;
+  }
+  body .getHelp .getHelp__content .getHelp__text {
+    margin-top: 50px;
+    font-size: 34px;
+    line-height: 50px;
+  }
+  body .getHelp .getHelp__content .getHelp__subtext {
+    margin-top: 50px;
+    font-size: 14px;
+    display: block;
+  }
+  body .getHelp .getHelp__img {
+    height: 680px;
+  }
+  body .contacts .contacts__img {
+    width: auto;
+    height: 280px;
+  }
+  body .contacts .contactsBlock {
+    width: 700px;
+    min-width: 630px;
+    margin-top: 70px;
+    padding-left: 40px;
+  }
+  body .contacts .contactsBlock .contact__item .item__title {
+    font-size: 13px;
+  }
+  body .contacts .contactsBlock .contact__item .item__text {
+    width: 190px;
+    height: 164px;
+    padding-top: 32px;
+    padding-right: 15px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  body .copyright {
+    height: 70px;
+    padding-top: 28px;
+    padding-left: 140px;
+  }
+}
+@media (max-width: 1024px) {
+  body header .headerBlock {
+    max-width: 730px;
+  }
+  body header .headerBlock .header__logo {
+    font-size: 22px;
+    line-height: 25px;
+  }
+  body header .headerBlock .header__menu {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  body header .headerBlock .header__menu .header__nav {
+    margin-left: 80px;
+  }
+  body header .headerBlock .header__menu .header__nav .nav__item-link {
+    margin-right: 7px;
+    padding: 5px;
+  }
+  body header .headerBlock .header__menu .header__buttonContacts {
+    border-radius: 44px;
+    width: 120px;
+    height: 44px;
+    padding: 15px 16px;
+  }
+  body .home {
+    height: 600px;
+  }
+  body .home .home__img {
+    width: 450px;
+  }
+  body .home .homeBlock {
+    padding-left: 50px;
+  }
+  body .home .homeBlock .homeBlock__content {
+    padding-top: 120px;
+    min-width: 60%;
+    max-width: 450px;
+  }
+  body .home .homeBlock .homeBlock__content .home__logo {
+    font-size: 20px;
+  }
+  body .home .homeBlock .homeBlock__content .home__title {
+    font-size: 27px;
+    line-height: 40px;
+    margin-top: 33px;
+  }
+  body .home .homeBlock .homeBlock__content .home__text {
+    margin-top: px;
+    font-size: 20px;
+    line-height: 35px;
+  }
+  body .home .homeBlock .homeBlock__content .homeBlock__buttons {
+    margin-top: 45px;
+    max-width: 350px;
+  }
+  body .home .homeBlock .homeBlock__content .homeBlock__buttons .home__leftButton {
+    padding: 7px 25px;
+    font-size: 13px;
+    line-height: 16px;
+  }
+  body .home .homeBlock .homeBlock__content .homeBlock__buttons .home__rightButton {
+    padding: 7px 25px;
+    font-size: 13px;
+    line-height: 16px;
+  }
+  body .introduction {
+    padding-left: 60px;
+  }
+  body .introduction .introduction__content {
+    padding-top: 60px;
+    padding-bottom: 0;
+    max-width: 400px;
+  }
+  body .introduction .introduction__content .introduction__title {
+    font-size: 27px;
+  }
+  body .introduction .introduction__content .introduction__text {
+    margin-top: 30px;
+    font-size: 17px;
+    line-height: 28px;
+  }
+  body .introduction .introduction__content .introduction__text .boldText {
+    font-size: 19px;
+  }
+  body .introduction .introduction__img {
+    width: auto;
+    height: 460px;
+  }
+  body .about {
+    padding-left: 50px;
+  }
+  body .about .aboutBlock {
+    max-width: 800px;
+    padding-top: 70px;
+  }
+  body .about .aboutBlock .about__heading {
+    font-size: 14px;
+  }
+  body .about .aboutBlock .about__text {
+    max-width: 486px;
+    font-size: 20px;
+  }
+  body .sport .sportBlock {
+    padding-top: 50px;
+  }
+  body .sport .sportBlock .sport__title {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  body .sport .sportBlock .sport__pictures .pictures__item {
+    width: 256px;
+    height: 256px;
+  }
+  body .sport .sportBlock .sport__pictures .pictures__item hr {
+    margin-top: 50px;
+  }
+  body .sport .sportBlock .sport__pictures .pictures__item .item__text {
+    font-size: 22px;
+    line-height: 25px;
+    margin-top: 10px;
+    max-width: 200px;
+    margin-left: 25px;
+  }
+  body .sport .sportBlock .sport__pictures .pictures__item .item__text:before {
+    width: 7px;
+    height: 7px;
+    left: -15px;
+    top: 9px;
+  }
+  body .services {
+    padding-top: 70px;
+    max-width: 986px;
+  }
+  body .services .pictures__item {
+    width: 249px;
+    height: 341px;
+  }
+  body .services .pictures__item hr {
+    margin-top: 60px;
+  }
+  body .services .pictures__item .item__text {
+    font-size: 26px;
+    line-height: 27px;
+    margin-top: 25px;
+    margin-left: 50px;
+  }
+  body .services .pictures__item .item__text:before {
+    width: 9px;
+    height: 9px;
+    left: -18px;
+    top: 10px;
+  }
+  body .type {
+    max-width: 1000px;
+  }
+  body .type .type__item {
+    width: 160px;
+    padding-left: 50px;
+    padding-right: 40px;
+  }
+  body .type .type__item .item__title {
+    margin-top: 30px;
+    font-size: 25px;
+    line-height: 29px;
+  }
+  body .type .type__item .item__text {
+    margin-top: 25px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  body .blog .blog__img {
+    height: 550px;
+  }
+  body .blog .blog__content {
+    padding-left: 60px;
+    margin-top: 50px;
+  }
+  body .blog .blog__content .blog__heading {
+    font-size: 12px;
+  }
+  body .blog .blog__content .blog__text {
+    margin-top: 130px;
+    max-width: 500px;
+    font-size: 26px;
+    line-height: 40px;
+  }
+  body .blog .blog__content .blog__subtext {
+    margin-top: 80px;
+    font-size: 12px;
+  }
+  body .getHelp .getHelp__content {
+    padding-left: 60px;
+    margin-top: 70px;
+    max-width: 400px;
+  }
+  body .getHelp .getHelp__content .getHelp__heading {
+    font-size: 12px;
+  }
+  body .getHelp .getHelp__content .getHelp__title {
+    margin-top: 100px;
+    font-size: 40px;
+  }
+  body .getHelp .getHelp__content .getHelp__text {
+    margin-top: 40px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  body .getHelp .getHelp__content .getHelp__subtext {
+    margin-top: 80px;
+    font-size: 12px;
+  }
+  body .getHelp .getHelp__img {
+    height: 600px;
+  }
+  body .contacts .contacts__img {
+    width: auto;
+    height: 180px;
+  }
+  body .contacts .contactsBlock {
+    width: 500px;
+    min-width: 420px;
+    margin-top: 30px;
+    padding-left: 20px;
+  }
+  body .contacts .contactsBlock .contact__item .item__title {
+    font-size: 12px;
+  }
+  body .contacts .contactsBlock .contact__item .item__text {
+    width: 120px;
+    height: 120px;
+    padding-top: 20px;
+    padding-right: 10px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  body .contacts .contactsBlock .item-someInfo .telBlock, body .contacts .contactsBlock .item-enfoldHealth .telBlock {
+    margin-top: 10px;
+  }
+  body .copyright {
+    height: 50px;
+    padding-top: 18px;
+    padding-left: 80px;
+    font-size: 13px;
+  }
+}
+@media (max-width: 768px) {
+  body header .headerBlock {
+    display: block;
+    margin: 0;
+    height: 80px;
+    width: 100%;
+  }
+  body header .headerBlock .header__title {
+    z-index: 10;
+    position: fixed;
+    display: flex;
+    margin-left: 20px;
+    width: 95%;
+    margin-top: 30px;
+    justify-content: space-between;
+  }
+  body header .headerBlock .header__title .header__burger {
+    display: flex;
+  }
+  body header .headerBlock .header__title .header__burger .line1, body header .headerBlock .header__title .header__burger .line3 {
+    transition: all 0.4s ease-in-out;
+  }
+  body header .headerBlock .header__title .header__burger .line2 {
+    transition: all 0.2s ease-in-out;
+  }
+  body header .headerBlock .header__title .header__burger.active .line1 {
+    transform: rotate(45deg);
+    transform-origin: 0% 0%;
+  }
+  body header .headerBlock .header__title .header__burger.active .line2 {
+    transform: scaleY(0);
+  }
+  body header .headerBlock .header__title .header__burger.active .line3 {
+    transform-origin: 0% 100%;
+    transform: rotate(-45deg);
+  }
+  body header .headerBlock .header__menu {
+    position: fixed;
+    align-items: center;
+    justify-content: start;
+    top: -100%;
+    transition: top 0.4s ease-in-out;
+    background-color: #F4F9E2;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    font-size: 18px;
+    line-height: 14px;
+  }
+  body header .headerBlock .header__menu .header__nav {
+    flex-direction: column;
+    margin: 0;
+    margin-top: 90px;
+    padding: 0;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  body header .headerBlock .header__menu .header__nav .nav__item-link {
+    margin-right: 0;
+    padding: 20px;
+  }
+  body header .headerBlock .header__menu .header__nav .nav__item-link a {
+    padding: 0 50px 20px 50px;
+  }
+  body header .headerBlock .header__menu .header__buttonContacts {
+    margin-top: 50px;
+    color: #fff;
+    margin-left: 0;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    padding: 17px 15px;
+    margin: 0;
+  }
+  body header .headerBlock .header__menu.active {
+    top: 0;
+  }
+  body .home .home__img {
+    width: 400px;
+  }
+  body .home .homeBlock {
+    width: 100%;
+    padding-left: 30px;
+  }
+  body .introduction {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  body .introduction .introduction__content {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    max-width: 728px;
+  }
+  body .introduction .introduction__img {
+    height: 504px;
+  }
+  body .about {
+    padding-left: 20px;
+  }
+  body .about .aboutBlock {
+    flex-direction: column;
+    padding-top: 44px;
+  }
+  body .about .aboutBlock .about__heading {
+    font-size: 13px;
+  }
+  body .about .aboutBlock .about__text {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 15px;
+    max-width: 700px;
+  }
+  body .sport {
+    max-width: 650px;
+  }
+  body .sport .sportBlock {
+    padding-top: 40px;
+  }
+  body .sport .sportBlock .sport__title {
+    font-size: 12px;
+  }
+  body .sport .sportBlock .sport__pictures {
+    flex-wrap: wrap;
+  }
+  body .sport .sportBlock .sport__pictures .pictures__item {
+    width: 231px;
+    flex-grow: 1;
+  }
+  body .services {
+    max-width: 650px;
+  }
+  body .services .pictures__item {
+    width: 232px;
+    height: 300px;
+  }
+  body .services .pictures__item .item__text {
+    font-size: 23px;
+    margin-left: 42px;
+    margin-top: 18px;
+  }
+  body .services .pictures__item .item__text:before {
+    width: 8px;
+    height: 8px;
+    left: -18px;
+    top: 10px;
+  }
+  body .type .type__item {
+    width: 155px;
+    height: 200px;
+    padding-left: 40px;
+    padding-right: 30px;
+  }
+  body .type .type__item .item__title {
+    font-size: 20px;
+  }
+  body .type .type__item .item__text {
+    line-height: 21px;
+  }
+  body .blog {
+    padding-top: 40px;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  body .blog .blog__img {
+    height: 720px;
+  }
+  body .blog .blog__content {
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  body .blog .blog__content .blog__text {
+    padding-right: 20px;
+    max-width: 800px;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  body .blog .blog__content .blog__subtext {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  body .getHelp {
+    flex-direction: column;
+    align-items: center;
+  }
+  body .getHelp .getHelp__content {
+    padding-left: 0;
+    margin-top: 30px;
+    max-width: 420px;
+  }
+  body .getHelp .getHelp__content .getHelp__title {
+    margin-top: 30px;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  body .getHelp .getHelp__content .getHelp__text {
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  body .getHelp .getHelp__content .getHelp__subtext {
+    margin-top: 50px;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  body .getHelp .getHelp__img {
+    height: 700px;
+  }
+  body .contacts {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  body .contacts .contacts__img {
+    width: auto;
+    height: 250px;
+  }
+  body .contacts .contactsBlock {
+    width: 470px;
+    margin-bottom: 10px;
+  }
+  body .contacts .contactsBlock .contact__item .item__text {
+    width: 118px;
+    height: 120px;
+  }
+  body .contacts .contactsBlock .item-someInfo .telBlock, body .contacts .contactsBlock .item-enfoldHealth .telBlock {
+    margin-top: 8px;
+  }
+  body .copyright {
+    height: 40px;
+    padding-top: 15px;
+    padding-left: 60px;
+  }
+
+  body.active {
+    overflow-y: hidden;
+  }
+}
+@media (max-width: 480px) {
+  body header .headerBlock .header__logo {
+    font-size: 19px;
+  }
+  body .home .homeBlock {
+    padding-left: 10px;
+  }
+  body .home .homeBlock .homeBlock__content {
+    padding-top: 100px;
+    min-width: 60%;
+    max-width: 300px;
+  }
+  body .home .homeBlock .homeBlock__content .home__logo {
+    font-size: 20px;
+  }
+  body .home .homeBlock .homeBlock__content .home__title {
+    font-size: 23px;
+    line-height: 30px;
+    margin-top: 330px;
+  }
+  body .home .homeBlock .homeBlock__content .home__text {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 35px;
+  }
+  body .home .homeBlock .homeBlock__content .homeBlock__buttons {
+    margin-top: 45px;
+    max-width: 350px;
+  }
+  body .home .homeBlock .homeBlock__content .homeBlock__buttons .home__leftButton {
+    padding: 7px 25px;
+    font-size: 13px;
+    line-height: 16px;
+  }
+  body .home .homeBlock .homeBlock__content .homeBlock__buttons .home__rightButton {
+    padding: 7px 25px;
+    font-size: 13px;
+    line-height: 16px;
+  }
+}
